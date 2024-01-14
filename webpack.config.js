@@ -24,6 +24,13 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.css$/, // .cssファイルに適用
+        use: [
+          'style-loader',
+          'css-loader'
+        ],
+      },
     ],
   },
   resolve: {
