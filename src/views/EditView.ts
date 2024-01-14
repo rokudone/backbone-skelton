@@ -2,7 +2,6 @@ import Backbone from 'backbone';
 import MemoCollection from '../collections/MemoCollection';
 import Memo from '../models/Memo';
 import editTemplate from '../templates/edit.ejs';
-import MemoItemView from './MemoItemView';
 
 class EditView extends Backbone.View<Memo> {
   collection: MemoCollection;

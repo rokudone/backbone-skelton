@@ -36,4 +36,5 @@ module.exports = {
   resolve: {
     extensions: [".ts", ".js"], // .tsと.jsの両方を解決
   },
+  devtool: 'inline-source-map',
 };
